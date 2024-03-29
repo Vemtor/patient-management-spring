@@ -47,7 +47,8 @@ React:
 4. `cd patient-management`
 5. `npm install react-router-dom`
 6. `npm install axios`
-7. Następnie wpisujemy polecenie `npm start`. Jeśli mamy uruchomiony serwer Spring i wykonany wcześniejsze kroki z bazą danych cała aplikacja powinna już funkcjonować. 
+7. Podmieniamy wszystkie pliki z pobranego archiwum(folder react).
+8. Następnie wpisujemy polecenie `npm start`. Jeśli mamy uruchomiony serwer Spring i wykonane wcześniejsze kroki z bazą danych cała aplikacja powinna już funkcjonować. 
 
 
 
