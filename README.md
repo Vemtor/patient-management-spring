@@ -27,4 +27,14 @@ Spring:
 
 React: 
 
+1. Przechodzimy do pobranego wcześniej przez nas już archiwum [https://github.com/Vemtor/patient-management-front-data/tree/main/database](https://github.com/Vemtor/patient-management-front-data) otwieramy folder frontend.
+2. W innym dowolnym folderze uruchamiamy terminal i wpisujemy następujące polecenia
+3. `npx create-react-app patient-management`
+4. `cd patient-management`
+5. `npm install react-router-dom`
+6. `npm install axios`
+7. Następnie wpisujemy polecenie `npm start`. Jeśli mamy uruchomiony serwer Spring i wykonany wcześniejsze kroki z bazą danych cała aplikacja powinna już funkcjonować. 
+
+
+
 
