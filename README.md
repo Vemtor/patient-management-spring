@@ -27,7 +27,7 @@ Spring:
 
 React: 
 
-1. Przechodzimy do pobranego wcześniej przez nas już archiwum [https://github.com/Vemtor/patient-management-front-data/tree/main/database](https://github.com/Vemtor/patient-management-front-data) otwieramy folder frontend.
+1. Przechodzimy do pobranego wcześniej przez nas już archiwum [https://github.com/Vemtor/patient-management-front-data/tree/main/database](https://github.com/Vemtor/patient-management-front-data) otwieramy folder react.
 2. W innym dowolnym folderze uruchamiamy terminal i wpisujemy następujące polecenia
 3. `npx create-react-app patient-management`
 4. `cd patient-management`
@@ -36,5 +36,8 @@ React:
 7. Następnie wpisujemy polecenie `npm start`. Jeśli mamy uruchomiony serwer Spring i wykonany wcześniejsze kroki z bazą danych cała aplikacja powinna już funkcjonować. 
 
 
+##1. O samej aplikacji
+Aplikacja działa od strony backendowej na Javie z frameworkiem Spring oraz bazą danych MySQL, frontend zrealizowany jest przy użyciu react'a. System umożliwa rejestrację pacjentów, podgląd w celu zobaczenia szczegółowych danych(w tym zleconych badań) oraz ich usunięcie. 
+Poza stworzeniem wyszukiwarki, dodaniem paginacji postanowiłem urozmaicić projekt o realizację tabeli ze zleconymi badanami dla pacjentów. Zatem wykorzystałem tutaj połączenie OneToMany o raz ManyToOne. Rzecz jasna usunięcie konkretnego badania przez lekarza nie może skutkować usunięcia pacjenta, ale usunięcie pacjenta skutuje usunięciem jego badań. Zaimplementowałem to w backendzie. Wprowadziłem również prostą weryfikację formularzy po stronie frontendowej, ale też i po stronie backendowej. 
 
 
