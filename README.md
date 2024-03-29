@@ -1,6 +1,6 @@
 # Patient management
 
-## 1. O samej aplikacji
+## 0. O samej aplikacji
 Aplikacja działa od strony backendowej na Javie z frameworkiem Spring oraz bazą danych MySQL, frontend zrealizowany jest przy użyciu react'a. System umożliwa rejestrację pacjentów ich usunięcie oraz podgląd. O ile osoba pracująca na recepcji nie może czytać pełnej dokumentacji medycznej pacjenta to może zobaczyć zlecone przez lekarzy badania.
 Poza stworzeniem wyszukiwarki, dodaniem paginacji postanowiłem urozmaicić projekt właśnie o realizację tabeli ze zleconymi badanami dla pacjentów. Zatem wykorzystałem tutaj połączenie OneToMany o raz ManyToOne. Rzecz jasna usunięcie konkretnego badania przez lekarza nie może skutkować usunięcia pacjenta, ale usunięcie pacjenta skutuje usunięciem jego badań. Zaimplementowałem to w backendzie. Wprowadziłem również prostą weryfikację formularzy po stronie frontendowej, ale też i po stronie backendowej. 
 
@@ -14,7 +14,7 @@ Oto kilka zdjęć z aplikacji
 
 
 
-## 0. Instrukcja instalacji
+## 1. Instrukcja instalacji
 Potrzebne nam będzie: Java wraz z Maven, MySQL Server, npm package manager. Przyda się nam też naturalnie do zarządzania bazą danych MySQL - MySQL Workbench
 
 Baza danych:
