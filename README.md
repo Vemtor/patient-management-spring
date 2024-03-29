@@ -5,6 +5,13 @@ Aplikacja działa od strony backendowej na Javie z frameworkiem Spring oraz baz�
 Poza stworzeniem wyszukiwarki, dodaniem paginacji postanowiłem urozmaicić projekt właśnie o realizację tabeli ze zleconymi badanami dla pacjentów. Zatem wykorzystałem tutaj połączenie OneToMany o raz ManyToOne. Rzecz jasna usunięcie konkretnego badania przez lekarza nie może skutkować usunięcia pacjenta, ale usunięcie pacjenta skutuje usunięciem jego badań. Zaimplementowałem to w backendzie. Wprowadziłem również prostą weryfikację formularzy po stronie frontendowej, ale też i po stronie backendowej. 
 
 Oto kilka zdjęć z aplikacji 
+![image](https://github.com/Vemtor/patient-management-spring/assets/20191221/31592ebe-7bf6-43b5-813c-612f4ec32273)
+![image](https://github.com/Vemtor/patient-management-spring/assets/20191221/7c03cdfa-c353-448d-9475-102161739de6)
+![image](https://github.com/Vemtor/patient-management-spring/assets/20191221/c0675827-a72c-4c22-b862-30d7fc4b877d)
+![image](https://github.com/Vemtor/patient-management-spring/assets/20191221/e5171f56-89b8-4afd-bb0f-89fc240a4690)
+
+
+
 
 
 ## 0. Instrukcja instalacji
